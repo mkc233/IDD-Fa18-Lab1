@@ -19,21 +19,8 @@ To light the LED the button must be depressed.  When the button is pushed the ci
 ## Part C. Blink a LED using Arduino
 
 ### 1. Blink the on-board LED
-Original Code:
 
-void setup() {
-  // put your setup code here, to run once:
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
+Original Code link
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 The digitalWrite(LED_BUILTIN, HIGH) determines when the LED turns on, while the digitalWrite(LED_BUILTIN, LOW) determines when the LED turns off.  To make the LED blink its necessary to put a delay so that it turns on, waits and then turns off to simulate blinking.
