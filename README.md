@@ -35,6 +35,7 @@ I would want to add a surge protector to protect both the board and external LED
 At a delay of 10 ms I can no longer perceive the LED as blinking.  Using the the camera from my phone I can now see that the LED is indeed still blinking.  In addition, per the code there is both a High and low digitalWrite() line indicating the LED is being turned on and off.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
 [My Blink](https://github.com/mkc233/IDD-Fa18-Lab1/blob/master/myBlink)
 
 
