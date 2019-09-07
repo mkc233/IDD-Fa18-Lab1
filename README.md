@@ -20,7 +20,7 @@ To light the LED the button must be depressed.  When the button is pushed the ci
 
 ### 1. Blink the on-board LED
 
-Original Code link
+[Original Blinking Code](https://github.com/mkc233/IDD-Fa18-Lab1/blob/master/originalBlinkCode)
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 The digitalWrite(LED_BUILTIN, HIGH) determines when the LED turns on, while the digitalWrite(LED_BUILTIN, LOW) determines when the LED turns off.  To make the LED blink its necessary to put a delay so that it turns on, waits and then turns off to simulate blinking.
