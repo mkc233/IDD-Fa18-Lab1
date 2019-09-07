@@ -1,12 +1,7 @@
-# IDD-Fa18-Lab1: Blink!
+# IDD-Fa19-Lab1: Blink!
 
-**A lab report by John Q. Student**
+**A lab report by Michael Chan**
 
-**Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
-
-> Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
-
-We've copied the questions from the lab here. Answer them below!
 
 ## Part A. Set Up a Breadboard
 
@@ -15,10 +10,11 @@ We've copied the questions from the lab here. Answer them below!
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 220 Ohm resistor?**
+A 220 Ohm resistor has 5 stripes, 2 red, 2 black and then 1 brown.  The first three stripes indicate that its 220 ohms, the 4th stripe is black and indicates that the multiplier factor is 1.  The final strip is brown and indicates the tolerance of +/- 1%.  
  
 **b. What do you have to do to light your LED?**
-
+To light the LED the button must be depressed.  When the button is pushed the circuit becomes closed and allows for current to pass through the LED and light it.
 
 ## Part C. Blink a LED using Arduino
 
