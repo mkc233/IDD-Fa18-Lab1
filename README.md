@@ -49,11 +49,13 @@ At a delay of 10 ms I can no longer perceive the LED as blinking.  Using the the
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+Yes i was able to get the LED to glow the whole turning range.  Even at the minimum current, there was enough to light up the LED.
 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+The pinmode in the setup has be changed to number 11 in order to control the circuit using pin 11.  It has to be changed in the void loop() as well to pin 11 when analgWrite() is used. 
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
