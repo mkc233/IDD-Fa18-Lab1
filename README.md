@@ -24,15 +24,18 @@ To light the LED the button must be depressed.  When the button is pushed the ci
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 The digitalWrite(LED_BUILTIN, HIGH) determines when the LED turns on, while the digitalWrite(LED_BUILTIN, LOW) determines when the LED turns off.  To make the LED blink its necessary to put a delay so that it turns on, waits and then turns off to simulate blinking.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 To change the rate of blinking the delay(1000) needs to be changed in order to make it faster or slower.  A smaller number will lead to faster blinking and vice versa.
-**c. What circuit element would you want to add to protect the board and external LED?**
 
+**c. What circuit element would you want to add to protect the board and external LED?**
+I would want to add a surge protector to protect both the board and external LED from voltage spikes.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
-At a delay of 10 ms I can no longer perceive the LED as blinking.  
+At a delay of 10 ms I can no longer perceive the LED as blinking.  Using the the camera from my phone I can now see that the LED is indeed still blinking.  In addition, per the code there is both a High and low digitalWrite() line indicating the LED is being turned on and off.
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+[My Blink](https://github.com/mkc233/IDD-Fa18-Lab1/blob/master/myBlink)
 
 
 ### 2. Blink your LED
