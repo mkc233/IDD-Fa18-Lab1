@@ -5,7 +5,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+[Breadboard Setup]
 
 
 ## Part B. Manually Blink a LED
@@ -58,7 +58,7 @@ Yes i was able to get the LED to glow the whole turning range.  Even at the mini
 The pinmode in the setup has be changed to number 11 in order to control the circuit using pin 11.  It has to be changed in the void loop() as well to pin 11 when analgWrite() is used. 
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-
+analogWrite() is used for pin11 because it has PWM control allowing for a range of voltages being applied to the pin.  Digitalwrite() is only capable of sending all the voltage or none of the voltage.
 
 ## Part F. FRANKENLIGHT!!!
 
