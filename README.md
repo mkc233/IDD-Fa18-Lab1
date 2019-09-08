@@ -85,4 +85,4 @@ Given that the batteries are providing 3 volts, any point on the PCB should be a
 
 ### 3. Build your light!
 
-[Frankenlight Video] (https://www.youtube.com/watch?v=nDJ)
+[Frankenlight Video](https://youtu.be/nDJ_xCq2KSs)
