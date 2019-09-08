@@ -62,22 +62,27 @@ analogWrite() is used for pin11 because it has PWM control allowing for a range 
 
 ## Part F. FRANKENLIGHT!!!
 
+[Remote Control PCB]
+[Schematic]
+
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+There are a number of microprocessors within the remote control PCB.  There are 2 small ones towards the LED, and 1 larger one and smaller one in the middle.  The microprocessor is most likely determining which infared code to send to the TV when certain buttons are pressed.  
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
+There don't seem to be any sensors on the remote.  There are numerous pressure activated points in the circuit which seem to respond to presses on the remote. There is an infared light on the remote which sends signals to the TV.
 
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
+The device is powered using two AA batteries at 1.5 volts, for a total of 3 volts.  It appears to be run at 3 volts throughout the remote.  There does not appear to be any voltage transmission or regulation.  
 
 **d. Is information stored in your device? Where? How?**
+The microprocessor most likely stores the infared codes when the corresponding button on the remote is pressed.  There are a number of microprocessors located on the PCB.
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-**Describe what you did here.**
+Given that the batteries are providing 3 volts, any point on the PCB should be able to provide enough voltage to power the LED.  I connetcted the LED across one of the capacitors is it lit up.  
 
 ### 3. Build your light!
 
-**Make a video showing off your Frankenlight.**
-
-**Include any schematics or photos in your lab write-up.**
+[Frankenlight Video] (https://www.youtube.com/watch?v=nDJ)
