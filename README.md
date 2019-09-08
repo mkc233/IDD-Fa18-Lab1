@@ -81,7 +81,7 @@ The microprocessor most likely stores the infared codes when the corresponding b
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
-Given that the batteries are providing 3 volts, any point on the PCB should be able to provide enough voltage to power the LED.  I connetcted the LED across one of the capacitors is it lit up.  
+Given that the batteries are providing 3 volts, any point on the PCB should be able to provide enough voltage to power the LED.  I connected the LED across one of the capacitors and it lit up.  
 
 ### 3. Build your light!
 
