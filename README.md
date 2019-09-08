@@ -63,7 +63,7 @@ analogWrite() is used for pin11 because it has PWM control allowing for a range 
 ## Part F. FRANKENLIGHT!!!
 
 ![Remote Control PCB 1](https://github.com/mkc233/IDD-Fa19-Lab1/blob/master/PCB%201.jpg)
-![Remote Control PCB 2]()
+![Remote Control PCB 2](https://github.com/mkc233/IDD-Fa19-Lab1/blob/master/PCB%202.jpg)
 [Schematic]
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
