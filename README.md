@@ -66,6 +66,8 @@ analogWrite() is used for pin11 because it has PWM control allowing for a range 
 ![Remote Control PCB 2](https://github.com/mkc233/IDD-Fa19-Lab1/blob/master/PCB%202.jpg)
 ![System Diagram](https://github.com/mkc233/IDD-Fa19-Lab1/blob/master/System_Diagram.jpg)
 
+The device is powered by two AA batteries.  When either the buttons are pressed or the scroll wheel is turned, a circuit is completed within the board.  Current then runs through the specific circuit to the integrated circuit which determines what kind of IR code to send to the LED.  The LED then sens this same IR code to the TV receiver.
+
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
