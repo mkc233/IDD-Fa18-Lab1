@@ -9,10 +9,10 @@
 
 
 ## Part B. Manually Blink a LED
-```
+
 **a. What color stripes are on a 220 Ohm resistor?**
 A 220 Ohm resistor has 5 stripes, 2 red, 2 black and then 1 brown.  The first three stripes indicate that its 220 ohms, the 4th stripe is black and indicates that the multiplier factor is 1.  The final strip is brown and indicates the tolerance of +/- 1%.  
-```
+
 **b. What do you have to do to light your LED?**
 To light the LED the button must be depressed.  When the button is pushed the circuit becomes closed and allows for current to pass through the LED and light it.
 
